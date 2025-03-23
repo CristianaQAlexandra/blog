@@ -1,0 +1,6 @@
+site_name: Cristiana QAlexandra's Blog
+theme:
+  name: dracula
+nav:
+  - Home: index.md
+  - Http Request URL: request_url.md
