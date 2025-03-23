@@ -1,6 +1,9 @@
 site_name: Cristiana QAlexandra's Blog
 theme:
   name: dracula
+  logo: images/icon.png
+extra_css:
+  - css/custom.css
 nav:
   - Home: index.md
   - Http Request URL: request_url.md

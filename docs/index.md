@@ -1,3 +1,3 @@
-# Welcome to My MkDocs Site
+# Welcome to My Blog
 
 This is a simple documentation site powered by MkDocs.
