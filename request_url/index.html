@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Http Request URL - Cristiana QAlexandra's Blog</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../assets/css/mkdocs.min.css">
+            <link href="../css/custom.css" rel="stylesheet">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+            <img class="logo" src="../images/icon.png" height="150px">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Cristiana QAlexandra's Blog</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href=".."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Home
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="./"
+                    class=" active 
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Http Request URL
+                </a>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href=".."
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a 
+                        class="btn-preview drac-btn drac-text-white--hover disabled" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h2 id="1-overview">1. Overview</h2>
+<p>In this article, we’ll break down the request URL and its main parts — protocol, host, path, and query string.</p>
+<p>Then, we’ll take a closer look at path and query parameters — what they do, how they’re used, and the key differences between them.</p>
+<h2 id="2-the-url">2. The URL</h2>
+<p>The URL (Uniform Resource Locator) is the address of a web page or resource on the internet. It tells your browser where to go.</p>
+<p>A URL has a few key parts:</p>
+<ul>
+<li><strong>Protocol</strong> – How the data is sent (e.g., <code>http</code> or <code>https</code>)</li>
+<li><strong>Host</strong> – The domain name (e.g., <code>www.linkedin.com</code>)</li>
+<li><strong>Path</strong> – Shows which page or resource you want (e.g., <code>/jobs/search/</code>)</li>
+<li><strong>Query String</strong> – Comes after <code>?</code> and sends extra info using key-value pairs (e.g.,<code>?keywords=designer&amp;location=Bucharest</code>)</li>
+</ul>
+<p><img alt="http url img" src="../images/http_url.png" /></p>
+<h2 id="3-path-parameters">3. Path Parameters</h2>
+<p>Path parameters are parts of a URL used to identify specific resources. They act as placeholders within the URL path and are replaced with real values when making a request.</p>
+<p>These values help the server determine which exact item or resource to return, such as a specific user, product, or post. Path parameters are essential for building dynamic URLs in web applications and APIs.</p>
+<h2 id="4-query-parameters">4. Query Parameters</h2>
+<p>Query parameters are used to send extra information in a URL. They come after the ? and follow the format key=value.</p>
+<p>They’re often used for searches, filters, or sorting.
+In our example, we filtered the jobs using the keywords <em>"designer"</em> and the location <em>Bucharest</em>. This resulted in a query string having two key-value pairs: <code>?keywords=designer&amp;location=Bucharest</code></p>
+<p><img alt="alt text" src="../images/linkedIn_search.png" /></p>
+<p>Now that we understand how URLs and their parameters work, let’s see why this knowledge is valuable for QA testing.</p>
+<h2 id="5-how-is-this-helping-me-as-a-qa">5. How is this helping me as a QA?</h2>
+<p>For QA, understanding URLs helps test real user behavior, ensures data accuracy, and catches edge cases that can affect user experience or security.</p>
+<ul>
+<li>
+<p><strong>Test Search Accuracy:</strong>
+Are only designer jobs shown? Are results limited to Bucharest?</p>
+</li>
+<li>
+<p><strong>Boundary Testing:</strong> 
+What happens if the keywords is empty? What if the location is misspelled or missing?</p>
+</li>
+<li>
+<p><strong>URL Manipulation:</strong>
+Can a user change the URL manually and get valid results or break the page?</p>
+</li>
+<li>
+<p><strong>Automation:</strong>
+This URL can be used in automated tests to check if filters/search results work correctly.</p>
+</li>
+</ul>
+<h2 id="6-conclusion">6. Conclusion</h2>
+<p>In this article, we discussed the key parts of a URL — protocol, host, path, and query string — and took a closer look at how path and query parameters work. </p>
+<p>Understanding these elements helps you navigate the web, interact with APIs, and test web features more effectively. Whether you're building, testing, or just browsing, knowing how URLs function gives you greater insight and control over how web applications behave.</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '..';</script>
+        <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/mkdocs.js"></script>
+			<script src="../search/main.js" defer></script>
+
+</body>
+
+</html>
